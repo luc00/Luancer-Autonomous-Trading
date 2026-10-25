@@ -96,7 +96,7 @@ export const TopBar: React.FC<TopBarProps> = ({
       <div className="order-first md:order-none w-full md:w-auto flex items-center justify-center my-1 md:my-0">
         <div className="relative group">
           <img
-            src="/assets/aistudio/logo_Luancer_per_trading_d71fa9bd.jpg"
+            src={`${import.meta.env.BASE_URL}assets/aistudio/logo_Luancer_per_trading_d71fa9bd.jpg`}
             alt="Luancer and Co. - Quality You Can Trust"
             className="h-10 sm:h-12 w-auto object-contain rounded-xl border border-gray-200/90 shadow-xs bg-white transition-transform hover:scale-105"
           />
