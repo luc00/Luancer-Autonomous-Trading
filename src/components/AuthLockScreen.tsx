@@ -65,7 +65,7 @@ export const AuthLockScreen: React.FC<AuthLockScreenProps> = ({
         {/* Luancer and Co. Centered Logo */}
         <div className="mb-4">
           <img
-            src={`${import.meta.env.BASE_URL}assets/aistudio/logo_Luancer_per_trading_d71fa9bd.jpg`}
+            src="./assets/aistudio/logo_Luancer_per_trading_d71fa9bd.jpg"
             alt="Luancer and Co."
             className="h-14 sm:h-16 w-auto object-contain rounded-2xl border border-gray-200/90 shadow-xs"
           />
