@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Luancer-Autonomous-Trading/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
